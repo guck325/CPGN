@@ -1,0 +1,46 @@
+/* logo */
+.logo {
+  width: 7.77%;
+  height: 8.09%;
+}
+
+header {
+  margin: 0px 12.5%;
+  padding: 2.31% 3.65% 0px;
+}
+
+.navigation {
+  margin-left: 68%;
+}
+
+.navigation_text {
+  text-decoration: none;
+  color: #000000;
+}
+
+.category {
+  margin-left: 30%;
+}
+
+.header-mymenu {
+  margin: 0px 0px 1.67%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1; /*다른 요소들보다 앞에 배치*/
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
