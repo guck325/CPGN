@@ -9,9 +9,9 @@
   <body>
     <header>
       <div class="navigation">
-        <a class="navigation_text" href="#">장바구니</a>
-        <a class="navigation_text" href="#">위시리스트</a>
-        <a class="navigation_text" href="#">로그인</a>
+        <a class="navigation_text" href="#">장바구니(0)</a>&nbsp;
+        <a class="navigation_text" href="#">위시리스트(0)</a>&nbsp;
+        <a class="navigation_text" href="#">로그인</a>&nbsp;
         <a class="navigation_text" href="#">매장찾기</a>
       </div>
 
@@ -63,7 +63,23 @@
       </div>
       <!-- MEN -->
     </header>
-    <main></main>
+    <main>
+      <div class="slider-container">
+        <div class="slider">
+          <img src="img/img1.jpg" alt="이미지 1" />
+          <img src="img/img2.jpg" alt="이미지 2" />
+          <img src="img/img3.jpg" alt="이미지 3" />
+        </div>
+        <div class="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+      </div>
+    </main>
     <footer></footer>
+    <script src="index.js"></script>
   </body>
 </html>
